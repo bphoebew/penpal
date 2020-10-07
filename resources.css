@@ -127,13 +127,13 @@ ul{
 }
 
 .begin{
-  margin-top: 20px;
+  /* margin-top: 20px; */
   margin-left: 150px;
   margin-right: 150px;
   font-size: 25px;
-  display: column;
-  text-align: justify;
-  justify-content: center;
+  /* display: column; */
+  text-align: center;
+  /* justify-content: center; */
 }
 
 .header{
@@ -183,4 +183,35 @@ body, html {
   padding: 1rem;
   background-color: #CC978E;
   text-align: justify;
+}
+
+.about-section {
+    border-radius: 25px;
+    padding: 20px;
+    margin: 40px;
+    width: 800px;
+    text-align: center;
+    background-color: rgb(150,197,176);
+    /* background: linear-gradient(rgba(153, 197, 176, 0.5), rgba(153, 197, 176, 0.3)),
+      url(images/header-bg.jpg) center no-repeat; */
+    color: white;
+}
+.flexCen{
+    display: flex;
+    justify-content: center;
+}
+.aboutH{
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 3px;
+  font-size: 30px;
+}
+.aboutP{
+  font-family: 'Domine', serif;
+  margin-right: 0px;
+  margin-top: 20px;
+  font-size: 15px;
+}
+li{
+  font-family: 'Domine', serif;
+  margin-bottom: 50px;
 }
