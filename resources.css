@@ -128,8 +128,8 @@ ul{
 
 .begin{
   /* margin-top: 20px; */
-  margin-left: 150px;
-  margin-right: 150px;
+  /* margin-left: 150px; */
+  /* margin-right: 150px; */
   font-size: 25px;
   /* display: column; */
   text-align: center;
@@ -214,4 +214,30 @@ body, html {
 li{
   font-family: 'Domine', serif;
   margin-bottom: 50px;
+}
+.chat{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  bottom: 3%;
+  right: 2%;
+  background: #CC978E;
+  border: #CC978E;
+  color: white;
+  letter-spacing: 3px;
+  font-size: 20px;
+  -webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+font-family: 'Montserrat', sans-serif;
+cursor: pointer;
+
+}
+button:focus {
+  outline:0;
+}
+.chat:hover{
+  background: #f39c6b;
 }
