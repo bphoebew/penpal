@@ -396,8 +396,10 @@ body.preloader-site {
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   position: fixed;
-  top: 3%;
+  top: 2%;
   right: 3%;
   letter-spacing: 2px;
-  color: #cc978e;
+  color: white;
+  background-color: #284b63;
+  padding: 20px;
 }
