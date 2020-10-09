@@ -247,18 +247,21 @@ p{
   .story-image {
     width: 130px;
     height: 130px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     object-fit: cover;
     margin-right: 5rem;
+    padding-bottom: 30px;
   }
 
   .story-text {
     letter-spacing: 0.1rem;
-    /* text-align: center; */
+    text-align: left;
   }
 
   .story-heading {
-    font-size: 21px;
+    font-size: 23px;
+    width: 400px;
+    text-align: left;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     color: var(--grey-color);
@@ -267,7 +270,7 @@ p{
 
   .story-paragraph {
     /* font-size: 1.8rem; */
-    font-size: 13px;
+    font-size: 15px;
     color: var(--light-grey-color);
     font-family: 'Domine', serif;
   }
@@ -460,7 +463,7 @@ p{
 transition: all 1s ease;
 font-family: 'Montserrat', sans-serif;
 cursor: pointer;
-
+z-index: 10;
 }
 button:focus {
   outline:0;
