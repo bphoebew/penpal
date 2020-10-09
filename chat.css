@@ -53,14 +53,14 @@ body {
   margin-top: 2px;
 }
 .people .preview {
-  color: #79C7C5;
+  color: #284b63;
   margin-left: 14px;
   font-size: 0.5em;
 }
 
 .person {
   padding: 12px 0 12px 12px;
-  border-bottom: 1px solid #79C7C5;
+  border-bottom: 1px solid #284b63;
   cursor: pointer;
 }
 .person:hover {
@@ -84,7 +84,7 @@ body {
   top: 50px;
   left: 2px;
   text-transform: uppercase;
-  color: #79C7C5;
+  color: #284b63;
   font-size: .8em;
   letter-spacing: 2px;
   font-weight: 500;
@@ -116,7 +116,7 @@ body {
 .avatar {
   width: 35px;
   height: 35px;
-  background: linear-gradient(to bottom left, #79C7C5 20%, #A1E2D9 100%);
+  background: linear-gradient(to bottom left, #cc978e 20%, #284b63 100%);
   border-radius: 50%;
   position: absolute;
   top: 11px;
@@ -172,8 +172,8 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background-color: #79C7C5;
-  box-shadow: 0px 7px 0px #79C7C5, 0px 14px 0px #79C7C5;
+  background-color: #284b63;
+  box-shadow: 0px 7px 0px #284b63, 0px 14px 0px #284b63;
 }
 
 .middle {
@@ -192,7 +192,7 @@ body {
   padding: 20px;
 }
 .incoming .bubble {
-  background: #b2b2b2;
+  background: #284b63;
 }
 
 .typing {
@@ -201,7 +201,7 @@ body {
   left: 20px;
 }
 .typing .bubble {
-  background: #eaeaea;
+  background: #284b63;
   padding: 8px 13px 9px 13px;
 }
 
@@ -249,7 +249,7 @@ body {
   height: 100%;
 }
 .outgoing .bubble {
-  background: #79C7C5;
+  background: #cc978e;
   float: right;
 }
 
@@ -278,7 +278,7 @@ input {
 }
 
 input::placeholder {
-  color: #A1E2D9;
+  color: #284b63;
 }
 
 input:focus {
@@ -371,24 +371,33 @@ body.preloader-site {
   width: 100px;
   height: 100px;
   position: fixed;
-  bottom: 3%;
-  right: 2%;
+  top: 3%;
+  left: 2%;
   background: #CC978E;
   border: #CC978E;
   color: white;
   letter-spacing: 3px;
   font-size: 20px;
   -webkit-transition: all 1s ease;
--moz-transition: all 1s ease;
--o-transition: all 1s ease;
-transition: all 1s ease;
-font-family: 'Montserrat', sans-serif;
-cursor: pointer;
-
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  z-index: 10;
 }
 #chatBut:focus {
   outline:0;
 }
 #chatBut:hover{
   background: #f39c6b;
+}
+.announce{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  position: fixed;
+  top: 3%;
+  right: 3%;
+  letter-spacing: 2px;
+  color: #cc978e;
 }
